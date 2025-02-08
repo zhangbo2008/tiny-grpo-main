@@ -11,7 +11,7 @@ def approx_kl_divergence(
     action_mask: Optional[torch.Tensor],
 ) -> torch.Tensor:
     """
-    Monte-Carlo approximation of KL divergence, k3 estimator, see: http://joschu.net/blog/kl-approx.html
+    Monte-Carlo approximation of KL divergence, k3 estimator, see: http://joschu.net/blog/kl-approx.html   # 这个KL散度的计算公式看前面这个html.
     """
 
     log_ratio = log_probs_ref.float() - log_probs.float()
