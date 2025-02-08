@@ -1,0 +1,3 @@
+Looking in indexes: https://pypi.douban.com/simple
+Requirement already satisfied: jinja2 in /home/root2/miniconda3/envs/Test1/lib/python3.9/site-packages (3.0.3)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/root2/miniconda3/envs/Test1/lib/python3.9/site-packages (from jinja2) (2.0.1)
