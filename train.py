@@ -252,8 +252,8 @@ def main():
     #     wandb.init(mode="disabled")
     # else:
     #     wandb.init(project=wandb_project)
-
-    for k, prompt_batch in enumerate(prompt_loader):
+#======整体把握训练流程. # 遍历每一个提示词.也就是问答对,
+    for k, prompt_batch in enumerate(prompt_loader): 
         rollout_returns = []
 
         replay_buffer.clear()

@@ -1,3 +1,24 @@
+train.py :255
+#======整体把握训练流程. # 遍历每一个提示词.也就是问答对,锁参数跑actor和ref模型的结果,记录到expericence. 这是acotr跑的是pi_theta_old, ref跑的是pi_ref
+                          #然后训练时候actor再跑一遍, 这时候跑的就是pi_theta.之后套r1论文(1)即可.
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Minimal GRPO implementation
 
 Goal: Working toy implementation of llama-3.2-3b locally RL training with GRPO. Understanding the algorithm & hyper parameters. Just running everything locally on a single node.
